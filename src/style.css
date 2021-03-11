@@ -1,0 +1,24 @@
+body {
+    background: #BCD681;
+    color: black;
+    margin-top: 20px;
+}
+
+.card-title {
+    color: #FBC117;
+    font-weight: bolder;
+    font-size: 140%;
+}
+
+.card {
+    background: #3F9784;
+    color: white;
+    margin-bottom: 20px;
+}
+
+b {
+    color: yellow;
+    color: #2A3F5F;
+    color: #2F2E2E;
+    font-size: 100%;
+}

@@ -1,0 +1,8 @@
+{
+  "short_name": "My Uniswap Summary",
+  "name": "My Uniswap Summary",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
