@@ -53,13 +53,17 @@ function Setup({setEndpoint}) {
 
   const [text, setText] = useState("");
 
+  const onSubmit = () => {
+    setEndpoint(text)
+  }
+
   return (
-    <rs.Form>
+    <rs.Form onSubmit={onSubmit}>
       <rs.FormGroup>
         <rs.Label>Enter the endpoint of your own deploy of <a href="https://github.com/rpagliuca/serverless-uniswap-summary">serverless-uniswap-summary</a>:</rs.Label>
         <rs.Input onChange={(e) => setText(e.target.value)} value={text}/>
       </rs.FormGroup>
-      <rs.Button onClick={() => setEndpoint(text)}>Go!</rs.Button>
+      <rs.Button>Go!</rs.Button>
     </rs.Form>
   )
 }
