@@ -17,8 +17,14 @@ body {
 }
 
 b {
-    color: yellow;
-    color: #2A3F5F;
-    color: #2F2E2E;
-    font-size: 100%;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 90%;
+}
+
+.position-negative {
+    background: #A32632;
+}
+
+.internal-card {
+    background: rgba(255,255,255,.1);
 }
