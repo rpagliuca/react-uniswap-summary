@@ -15,7 +15,8 @@ function Main() {
   const [endpoint, setEndpoint] = useState("");
 
   const persistEndpoint = (endpoint) => {
-    document.cookie = "endpoint=" + endpoint + "; SameSite=Strict";
+    const oneYear = 60 * 60 * 24 * 365;
+    document.cookie = "endpoint=" + endpoint + "; SameSite=Strict; Max-Age=" + oneYear;
     setEndpoint(endpoint)
   }
 
