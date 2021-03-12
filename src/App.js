@@ -17,6 +17,7 @@ function Main() {
   const persistEndpoint = (endpoint) => {
     const oneYear = 60 * 60 * 24 * 365;
     document.cookie = "endpoint=" + endpoint + "; SameSite=Strict; Max-Age=" + oneYear;
+    window.location.hash = endpoint;
     setEndpoint(endpoint)
   }
   
@@ -43,9 +44,7 @@ function Main() {
   };
 
   const loadHashFromURL = () => {
-    if (hashEndpoint) {
-      persistEndpoint(hashEndpoint)
-    }
+    persistEndpoint(hashEndpoint)
   };
 
   const loadHashFromCookie = () => {
@@ -86,7 +85,7 @@ function Main() {
     <>
     <rs.Form>
       <rs.FormGroup>
-        <center><rs.Button onClick={() => persistEndpoint("")}>Back</rs.Button></center>
+        <center><rs.Button onClick={() => persistEndpoint("")}>Clear current session</rs.Button></center>
       </rs.FormGroup>
     </rs.Form>
     <Stats endpoint={endpoint}/>
