@@ -1,5 +1,5 @@
 {
-  "name": "reactjs-uniswap-summary",
+  "name": "react-uniswap-summary",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,5 +40,5 @@
   "devDependencies": {
     "gh-pages": "^1.2.0"
   },
-  "homepage": "http://rpagliuca.github.io/reactjs-uniswap-summary/"
+  "homepage": "http://rpagliuca.github.io/react-uniswap-summary/"
 }
