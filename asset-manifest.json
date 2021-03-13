@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-uniswap-summary/static/css/main.c28b3177.chunk.css",
+    "main.js": "/react-uniswap-summary/static/js/main.7967332c.chunk.js",
+    "main.js.map": "/react-uniswap-summary/static/js/main.7967332c.chunk.js.map",
+    "runtime-main.js": "/react-uniswap-summary/static/js/runtime-main.796d1c01.js",
+    "runtime-main.js.map": "/react-uniswap-summary/static/js/runtime-main.796d1c01.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/react-uniswap-summary/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.09d680af.chunk.js": "/react-uniswap-summary/static/js/2.09d680af.chunk.js",
+    "static/js/2.09d680af.chunk.js.map": "/react-uniswap-summary/static/js/2.09d680af.chunk.js.map",
+    "static/js/3.12f1dfdd.chunk.js": "/react-uniswap-summary/static/js/3.12f1dfdd.chunk.js",
+    "static/js/3.12f1dfdd.chunk.js.map": "/react-uniswap-summary/static/js/3.12f1dfdd.chunk.js.map",
+    "index.html": "/react-uniswap-summary/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/react-uniswap-summary/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.c28b3177.chunk.css.map": "/react-uniswap-summary/static/css/main.c28b3177.chunk.css.map",
+    "static/js/2.09d680af.chunk.js.LICENSE.txt": "/react-uniswap-summary/static/js/2.09d680af.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.796d1c01.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.09d680af.chunk.js",
+    "static/css/main.c28b3177.chunk.css",
+    "static/js/main.7967332c.chunk.js"
+  ]
+}
